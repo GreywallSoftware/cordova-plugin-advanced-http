@@ -26,6 +26,7 @@
     <clobbers target="cordova.plugin.http"/>
   </js-module>
   <platform name="ios">
+    <framework src="UIKit.framework" />
     <config-file target="config.xml" parent="/*">
       <feature name="CordovaHttpPlugin">
         <param name="ios-package" value="CordovaHttpPlugin"/>
